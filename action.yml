@@ -35,6 +35,10 @@ inputs:
     description: 'Set a default version bump to use'
     default: 'patch'
     required: false
+  ignore_version_bump:
+    description: "Ignores checking for duplicate version bumping"
+    default: 'false'
+    required: false
 outputs:
   newTag:
     description: 'The newly created tag'
